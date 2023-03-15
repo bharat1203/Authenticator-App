@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Hi Bharat!, Welcome to Application</h1>
+    <p><i>this application will be used to signin the user into the Microsoft office for authentication and fetch the access token and store in the file.</i></p>
+    <button class="btn btn-primary" style="margin-top:20px;"onclick="location.href = '@Url.Action("OauthRedirect","Home")'">signin</button><br />
+    <p>click on the signin button to login to the microsoft office</p>
+</div>
